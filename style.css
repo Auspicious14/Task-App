@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    /* border: .1rem solid blue; */
+    background: rgb(119, 168, 224);
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+#task {
+    width: 450px;
+    padding: .5rem .5rem;
+    margin-top: .5rem;
+    background: rgb(119, 168, 224);
+    border: none;
+    border-bottom: .1rem solid black;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin-bottom: .2rem;
+}
+
+.btn {
+    background: blue;
+    border: none;
+    color: white;
+    margin-top: .5rem;
+    padding: .2rem 1rem;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+}
+
+.task-action {
+    margin: 1rem 0rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4 {
+    color: black;
+    margin: 1rem;
+}
+
+.list-collection {
+    margin-left: 1rem;
+    list-style-type: disc;
+}
+
+.task-box {
+    width: 450px;
+    height: 200px;
+    background: rgb(119, 168, 224);
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.delete-task {
+    padding: .3rem 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    background: blue;
+    color: white;
+}
+
+.clear-OverallTask {
+    padding: .4rem 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    background: blue;
+    color: white;
+    margin-top: 1.5rem;
+}
